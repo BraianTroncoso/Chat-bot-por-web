@@ -1,7 +1,7 @@
 import pyautogui, webbrowser
 from time import sleep
 
-webbrowser.open('https://web.whatsapp.com/send?phone=+543571638693')
+webbrowser.open('https://web.whatsapp.com/send?phone=+ACAVATUNUM')
 sleep(20)
 
 with open ('spam.txt', 'r') as file:
@@ -24,7 +24,7 @@ seconds = time.time() + 60
 # Transformamos los segundos a una fecha, para que sea mas fácil manipular el tiempo
 date = datetime.fromtimestamp(seconds)
 
-pywhatkit.sendwhatmsg("+543571638693", "Que onda", date.hour, date.minute)
+pywhatkit.sendwhatmsg("+ACAVATUNUM", "Que onda", date.hour, date.minute)
 
 time.sleep(5)
 """
